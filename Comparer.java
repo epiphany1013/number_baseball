@@ -4,8 +4,8 @@ public class Comparer {
         int rIndex = 0;
         int strikeCnt = 0;
         int ballCnt = 0;
-        System.out.println("uNum : "+ uNum.userNumber);
-        System.out.println("RNum : "+ rNum.resultString);
+//        System.out.println("uNum : "+ uNum.userNumber);
+//        System.out.println("RNum : "+ rNum.resultString);
         if((uNum.userNumber).equals(rNum.resultString)){
             System.out.println("3스트라이크");
             return true;
